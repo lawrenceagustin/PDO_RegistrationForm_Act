@@ -7,5 +7,5 @@ CREATE TABLE popupShop (
     contact_no VARCHAR(20),
     stall_number VARCHAR(20),
     event_date VARCHAR(20),
-    DateAdded TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    DateAdded DATE DEFAULT CURRENT_TIMESTAMP
 );
